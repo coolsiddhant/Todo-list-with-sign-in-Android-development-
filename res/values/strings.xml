@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Shuchanalaye</string>
+    <string name="dashboard">dashboard</string>
+    <string name="college">college</string>
+    <string name="branch">ABOUT THE DEPARTMENT:
+
+The department was started in the year 1986, with an intake of 60 students offering a bachelors degree in Computer Science and Engineering, under Bangalore University. In these years of academic services, the department has grown up steadily, and at present the department hosts three autonomous programs, under the affiliation of Visveswaraya Technological University .The department has V.T.U recognized research centre, which was started in the year 2003.
+
+    </string>
+    <string name="help">help</string>
+    <string name="about">about</string>
+    <string name="navigation_bar">Navigation bar</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="walish_fragment">walish_fragment</string>
+    <string name="hello_college_fragment">college</string>
+    <string name="hello_branch_fragment">branch section</string>
+    <string name="help_fragment">help section</string>
+    <string name="about_fragment">about section</string>
+    <string name="college_fragment">Siddaganga Institute of Technology, Tumkur was established in 1963 under Sree Siddaganga Education Society founded by His Holiness Dr. Sree Sree Sivakumara Swamigalu with the objective of providing technical education to rural students.  With more than five decades of illustrious existence, SIT has evolved into an institution of excellence with proven research credentials, industry partnerships and Government funded projects.  SIT has research expertise in the fields of Geotechnical, Structural and Hydraulics Engg., (Civil Engg. Dept.); Thin film sensors (Electronics and Instrumentation Engg. Dept.); Materials Technology and Thermal Engineering (Mechanical Dept.); Signal Processing, Image and Speech Processing (E and C and ISE Depts.); Cryptography and network security, Cloud computing, Wireless sensor networks (Computer Science Dept.); Image processing, chiral silicon carbide materials and microwave antennas (Telecommunication Engg. Dept); Nano materials (Electrical and Electronics Engg. Dept. Chemistry and Physics Depts.); Lean Six Sigma and Supply Chain Management (IEM; Bioinformatics (Biotechnology Dept.); Biofuel, batteries and peptides (Chemistry); Graph theory and fluid dynamics (Mathematics); Spectroscopy (Physics); Agri commodity markets, banking (MBA); Biometrics, soft computing applications, location based services (MCA).
+
+The good research pursued and projects carried out by the faculty and students has resulted in filing 60 patents (59 Indian and one USA) and granting of one USA patent and publications in peer reviewed Scopus (694: citation: 2324; h-index: 22) and Web of Science Journals (432; Citation: 1174; h-index : 16).
+
+In the strategic plan and Road Map 2022 of S.I.T., it is proposed to establish a Centre for rural development to provide solutions to societal issues.
+
+SIT has taken up the design and fabrication of nano-satellite with participation of students and faculty members.
+
+SIT has a 33,000 strong network of alumni spread over in 24 countries.</string>
+    <string name="college_image">college_image</string>
+    <string name="welcome">welcome</string>
+    <string name="to_do_list_application">To Do List Application</string>
+    <string name="company_logo">company_logo</string>
+    <string name="add_an_item">Add an Item</string>
+    <string name="clear">Clear</string>
+    <string name="my_to_do_list">My To Do List</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+</resources>

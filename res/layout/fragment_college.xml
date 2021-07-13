@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".College">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:background="@drawable/background"
+        android:layout_centerHorizontal="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgcollegelogo"
+            android:layout_width="500sp"
+            android:layout_height="266sp"
+            android:layout_margin="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/college" />
+
+
+
+    <TextView
+        android:id="@+id/txtcollege"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_below="@+id/imgcollegelogo"
+        android:text="@string/college_fragment" />
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

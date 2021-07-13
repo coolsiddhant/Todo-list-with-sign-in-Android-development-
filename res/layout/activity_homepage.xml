@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome dada"
+        android:layout_alignParentTop="true"
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/welcome"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome"
+        android:text="Timeline"
+        android:id="@+id/timeline"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Groups"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/welcome"
+        android:id="@+id/groups"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chats"
+        android:layout_below="@+id/welcome"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/chats"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:layout_below="@+id/chats">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10sp"
+            android:text="@string/to_do_list_application"
+            android:textColor="@color/black"
+            android:textSize="26sp" />
+        <EditText
+            android:layout_below="@id/textView"
+            android:id="@+id/editText"
+            android:padding="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_an_item"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:autofillHints=""
+            android:inputType="text" />
+
+        <RelativeLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editText"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add" />
+
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/delete" />
+
+            <Button
+                android:id="@+id/clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="@string/clear" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10sp"
+            android:layout_below="@id/linearLayout1"
+            android:text="@string/my_to_do_list"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/textView1"
+            android:choiceMode="multipleChoice"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
